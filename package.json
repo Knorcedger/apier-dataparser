@@ -1,0 +1,34 @@
+{
+  "name": "apier-dataparser",
+  "description": "Request data parser for apier.",
+  "version": "1.0.0",
+  "author": "Knorcedger",
+  "bugs": "https://github.com/Knorcedger/apier-dataparser/issues",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "lodash": "^4.0.1",
+    "querystring": "^0.2.0",
+    "reqlog": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-google": "^0.3.0"
+  },
+  "homepage": "https://github.com/Knorcedger/apier-dataparser",
+  "keywords": [
+    "api",
+    "apier",
+    "dataparser",
+    "node",
+    "node.js",
+    "requestdataparser"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Knorcedger/apier-dataparser"
+  },
+  "scripts": {
+    "test": "eslint index.js"
+  }
+}
